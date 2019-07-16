@@ -28,7 +28,7 @@ def find_min_value(array)
   min = [1,000,000,000,000]
   
   for i in array do 
-    if(i < min)
+    if(i < min[0])
       min[0] = i
     end
   end
