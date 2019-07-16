@@ -32,5 +32,11 @@ def find_min_value(array)
       min = i
     end
   end
-    return min
+    puts min
 end
+
+array = [1, 6, 2, 4]
+find_min_value(array)
+
+
+
