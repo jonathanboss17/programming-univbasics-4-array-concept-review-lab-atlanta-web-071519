@@ -25,14 +25,7 @@ end
 
 def find_min_value(array)
   # Add your solution here
-  min = [1,000,000,000,000]
-  
-  for i in array do 
-    if(i < min[0])
-      min[0] = i
-    end
-  end
-    puts min
+  return array.min
 end
 
 
