@@ -18,7 +18,7 @@ end
 
 def find_max_value(array)
   # Add your solution here
-
+  return array.max
 end
 
 
@@ -35,8 +35,6 @@ def find_min_value(array)
     puts min
 end
 
-array = [1, 6, 2, 4]
-find_min_value(array)
 
 
 
